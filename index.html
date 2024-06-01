@@ -1,0 +1,443 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+  <title>Enterprisma Tecnologia</title>
+  <meta content="" name="description">
+  <meta content="" name="keywords">
+
+  <!-- Favicons -->
+  <link href="assets\img\logo.png" rel="icon">
+  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
+  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+  <link href="assets/vendor/remixicon/remixicon.css" rel="stylesheet">
+  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+
+  <!-- Template Main CSS File -->
+  <link href="assets/css/style.css" rel="stylesheet">
+
+  <!-- =======================================================
+  * Template Name: Vesperr
+  * Template URL: https://bootstrapmade.com/vesperr-free-bootstrap-template/
+  * Updated: Mar 17 2024 with Bootstrap v5.3.3
+  * Author: BootstrapMade.com
+  * License: https://bootstrapmade.com/license/
+  ======================================================== -->
+</head>
+
+<body>
+
+<style>
+
+  .fundo-modal{
+    position: fixed;
+    width: 100%;
+    height: 150%;
+    z-index: 1000;
+    margin-top: -70px;
+    background: rgba(0, 0, 0, 0.8);
+  }
+
+  .container-msg-modal{
+    position: fixed;
+    top: 0px;
+    width: 100%;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+    background: #075E54;
+  }
+
+  @keyframes scalePingPong {
+  0% {
+    transform: scale(0.7);
+  }
+  50% {
+    transform: scale(1.0);
+  }
+  100% {
+    transform: scale(0.7);
+  }
+}
+
+  .container-watsapp {
+        position: fixed;
+        z-index: 100;
+        width: 80px;
+        height: 80px;
+        bottom: 30px;
+        right: 40px;
+        margin-top: 100%;
+        margin-left: 30%;
+        background: #075E54;
+        border-radius: 100px;
+        animation: scalePingPong 4s infinite;
+        box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.4);
+    }
+
+    #watsapp-icone {
+    position: relative;
+    width: 100%;
+    top: 50%;
+    font-size: 45px;
+    color: #fff;
+    text-align: center;
+    transform: translateY(-50%);
+}
+	
+	@media only screen and (max-width: 1999px) {
+	  h1 {
+	  font-size: 48px;
+	  }
+
+	}
+
+
+	@media only screen and (min-width: 1200px) {
+  h1 {
+  font-size: 60px;
+  }
+
+}
+
+</style>
+
+<a href="https://wa.me/+258864796014">
+<div class="container-watsapp">
+
+      <i class="bx bxl-whatsapp" id="watsapp-icone" aria-hidden="true"></i>
+
+</div>
+</a>
+
+  <!-- ======= Header ======= -->
+  <header id="header" class="fixed-top d-flex align-items-center">
+    <div class="container d-flex align-items-center justify-content-between">
+
+      <div class="logo">
+        <h1><img style="transform: scale(5.5); margin-left: 60px" src="assets\img\logo.png"></h1>
+        <!-- Uncomment below if you prefer to use an image logo -->
+        <!-- <a href="index.html"><img src="assets/img/logo.png" alt="" class="img-fluid"></a>-->
+      </div>
+
+      <nav id="navbar" class="navbar">
+        <ul>
+          <li><a class="nav-link scrollto active" href="#hero">Home</a></li>
+          <li><a class="nav-link scrollto" href="#about">Sobre Nos</a></li>
+          <li><a class="nav-link scrollto" href="#services">Servicos</a></li>
+          <li><a class="nav-link scrollto " href="#contact">Contato</a></li>
+          <li><a class="getstarted scrollto" href="#about">Saber Mais</a></li>
+        </ul>
+        <i class="bi bi-list mobile-nav-toggle"></i>
+      </nav><!-- .navbar -->
+
+    </div>
+  </header><!-- End Header -->
+
+  <!-- ======= Hero Section ======= -->
+  <section id="hero" class="d-flex align-items-center">
+
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-6 pt-5 pt-lg-0 order-2 order-lg-1 d-flex flex-column justify-content-center">
+          <h1 id="titulo-main" data-aos="fade-up">Construindo o futuro através do código!</h1>
+          <h6 data-aos="fade-up" data-aos-delay="400">Transformando ideias em inovação, linha por linha.</h6>
+          <div data-aos="fade-up" data-aos-delay="800" style="margin-top: 30px">
+            <a href="#about" class="btn-get-started scrollto">Saber Mais</a>
+          </div>
+        </div>
+        <div class="col-lg-6 order-1 order-lg-2 hero-img" data-aos="fade-left" data-aos-delay="200">
+          <img src="assets/img/hero-img.png" class="img-fluid animated" alt="">
+        </div>
+      </div>
+    </div>
+
+  </section><!-- End Hero -->
+
+  <main id="main">
+
+    <!-- ======= Clients Section ======= -->
+    <section id="clients" class="clients">
+      <div class="container">
+
+        <div class="row">
+
+          <div class="col-lg-2 col-md-4 col-6">
+            <img src="assets/img/html.png" class="img-fluid" alt="" >
+          </div>
+
+          <div class="col-lg-2 col-md-4 col-6">
+            <img src="assets/img/css.png" style="width: 50px" class="img-fluid" alt="">
+          </div>
+
+          <div class="col-lg-2 col-md-4 col-6">
+            <img src="assets/img/js.png" class="img-fluid" alt="">
+          </div>
+
+          <div class="col-lg-2 col-md-4 col-6">
+            <img src="assets/img/node.png" style="width: 55px" class="img-fluid" alt="">
+          </div>
+
+          <div class="col-lg-2 col-md-4 col-6">
+            <img src="assets/img/php.png" style="width: 65px" class="img-fluid" alt="">
+          </div>
+
+          <div class="col-lg-2 col-md-4 col-6">
+            <img src="assets/img/sql.png" style="width: 50px" class="img-fluid" alt="">
+          </div>
+
+        </div>
+
+      </div>
+    </section><!-- End Clients Section -->
+
+    <!-- ======= About Us Section ======= -->
+    <section id="about" class="about">
+      <div class="container">
+
+        <div class="section-title" data-aos="fade-up">
+          <h2>Sobre Nós</h2>
+        </div>
+
+        <div class="row content">
+          <div class="col-lg-6" data-aos="fade-up" data-aos-delay="150">
+            <p>
+              Bem-vindo à EnterPrisma, onde transformamos visões em realidade digital. Somos uma equipe apaixonada de mentes criativas e especialistas em tecnologia, dedicados a construir o futuro através do código.
+            </p>
+            <ul>
+              <li><i class="ri-check-double-line"></i> Na EnterPrisma, transformamos visões em realidade digital, linha por linha.</li>
+              <li><i class="ri-check-double-line"></i> Somos a EnterPrisma, onde a paixão pela inovação encontra o código.</li>
+              <li><i class="ri-check-double-line"></i> Bem-vindo à EnterPrisma, onde cada solução é uma história de sucesso em código.</li>
+            </ul>
+          </div>
+          <div class="col-lg-6 pt-4 pt-lg-0" data-aos="fade-up" data-aos-delay="300">
+            <p>
+              Desde o desenvolvimento de aplicativos móveis intuitivos até a implementação de sistemas de última geração, estamos comprometidos em oferecer soluções de software de alta qualidade que impulsionam o crescimento e o sucesso dos nossos clientes.
+            </p>
+        
+          </div>
+        </div>
+
+      </div>
+    </section><!-- End About Us Section -->
+
+   
+
+    <!-- ======= Services Section ======= -->
+    <section id="services" class="services">
+      <div class="container">
+
+        <div class="section-title" data-aos="fade-up">
+          <h2>NOSSOS SERVIÇOS</h2>
+          <p>Na Enterprisma Tecnologia, somos apaixonados por transformar ideias em realidade através do desenvolvimento de sistemas web e aplicativos</p>
+        </div>
+
+        <div class="row">
+          <div class="col-md-6 col-lg-6 d-flex align-items-stretch mb-5 mb-lg-0">
+            <div class="icon-box" data-aos="fade-up" data-aos-delay="100">
+              <div class="icon"><i class="bx bxl-html5"></i></div>
+              <h4 class="title"><a href="">Desenvolvimento de Sistemas WEB</a></h4>
+              <p class="description">Nós, da Enterprisma Tecnologia, somos especialistas em desenvolver sistemas web personalizados para atender às necessidades únicas do seu negócio. Desde o design responsivo até a implementação do back-end robusto, nós cuidamos de tudo para garantir que seu sistema seja funcional, bonito e fácil de usar em qualquer dispositivo. Conte conosco para criar uma presença online poderosa para o seu empreendimento.</p>
+            </div>
+          </div>
+
+          
+
+          <div class="col-md-6 col-lg-6 d-flex align-items-stretch mb-5 mb-lg-0">
+            <div class="icon-box" data-aos="fade-up" data-aos-delay="400">
+              <div class="icon"><i class="bx bx-mobile-alt"></i></div>
+              <h4 class="title"><a href="">Desenvolvimento de Aplicativos</a></h4>
+              <p class="description">Na Enterprisma Tecnologia, criamos aplicativos móveis que encantam e engajam os usuários. Seja nativo ou híbrido, iOS ou Android, estamos aqui para transformar sua ideia em realidade digital. Com uma equipe dedicada de designers e desenvolvedores, garantimos que seu aplicativo seja intuitivo, bonito e pronto para conquistar o mercado. Confie em nós para dar vida à sua visão de aplicativo.</p>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </section><!-- End Services Section -->
+
+  
+
+
+    <!-- ======= Testimonials Section
+    <section id="testimonials" class="testimonials section-bg">
+      <div class="container">
+
+        <div class="section-title" data-aos="fade-up">
+          <h2>Testimonials</h2>
+          <p>Magnam dolores commodi suscipit eum quidem consectetur velit</p>
+        </div>
+
+        <div class="testimonials-slider swiper" data-aos="fade-up" data-aos-delay="100">
+          <div class="swiper-wrapper">
+
+            <div class="swiper-slide">
+              <div class="testimonial-wrap">
+                <div class="testimonial-item">
+                  <img src="assets/img/testimonials/testimonials-1.jpg" class="testimonial-img" alt="">
+                  <h3>Saul Goodman</h3>
+                  <h4>Ceo &amp; Founder</h4>
+                  <p>
+                    <i class="bx bxs-quote-alt-left quote-icon-left"></i>
+                    Proin iaculis purus consequat sem cure digni ssim donec porttitora entum suscipit rhoncus. Accusantium quam, ultricies eget id, aliquam eget nibh et. Maecen aliquam, risus at semper.
+                    <i class="bx bxs-quote-alt-right quote-icon-right"></i>
+                  </p>
+                </div>
+              </div>
+            </div> 
+
+            <div class="swiper-slide">
+              <div class="testimonial-wrap">
+                <div class="testimonial-item">
+                  <img src="assets/img/testimonials/testimonials-2.jpg" class="testimonial-img" alt="">
+                  <h3>Sara Wilsson</h3>
+                  <h4>Designer</h4>
+                  <p>
+                    <i class="bx bxs-quote-alt-left quote-icon-left"></i>
+                    Export tempor illum tamen malis malis eram quae irure esse labore quem cillum quid cillum eram malis quorum velit fore eram velit sunt aliqua noster fugiat irure amet legam anim culpa.
+                    <i class="bx bxs-quote-alt-right quote-icon-right"></i>
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <div class="swiper-slide">
+              <div class="testimonial-wrap">
+                <div class="testimonial-item">
+                  <img src="assets/img/testimonials/testimonials-3.jpg" class="testimonial-img" alt="">
+                  <h3>Jena Karlis</h3>
+                  <h4>Store Owner</h4>
+                  <p>
+                    <i class="bx bxs-quote-alt-left quote-icon-left"></i>
+                    Enim nisi quem export duis labore cillum quae magna enim sint quorum nulla quem veniam duis minim tempor labore quem eram duis noster aute amet eram fore quis sint minim.
+                    <i class="bx bxs-quote-alt-right quote-icon-right"></i>
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <div class="swiper-slide">
+              <div class="testimonial-wrap">
+                <div class="testimonial-item">
+                  <img src="assets/img/testimonials/testimonials-4.jpg" class="testimonial-img" alt="">
+                  <h3>Matt Brandon</h3>
+                  <h4>Freelancer</h4>
+                  <p>
+                    <i class="bx bxs-quote-alt-left quote-icon-left"></i>
+                    Fugiat enim eram quae cillum dolore dolor amet nulla culpa multos export minim fugiat minim velit minim dolor enim duis veniam ipsum anim magna sunt elit fore quem dolore labore illum veniam.
+                    <i class="bx bxs-quote-alt-right quote-icon-right"></i>
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <div class="swiper-slide">
+              <div class="testimonial-wrap">
+                <div class="testimonial-item">
+                  <img src="assets/img/testimonials/testimonials-5.jpg" class="testimonial-img" alt="">
+                  <h3>John Larson</h3>
+                  <h4>Entrepreneur</h4>
+                  <p>
+                    <i class="bx bxs-quote-alt-left quote-icon-left"></i>
+                    Quis quorum aliqua sint quem legam fore sunt eram irure aliqua veniam tempor noster veniam enim culpa labore duis sunt culpa nulla illum cillum fugiat legam esse veniam culpa fore nisi cillum quid.
+                    <i class="bx bxs-quote-alt-right quote-icon-right"></i>
+                  </p>
+                </div>
+              </div>
+            </div>
+
+          </div>
+          <div class="swiper-pagination"></div>
+        </div>
+
+      </div>
+    </section>======= -->
+
+    
+
+
+    <!-- ======= Contact Section ======= -->
+    <section id="contact" class="contact">
+      <div class="container">
+
+        <div class="section-title" data-aos="fade-up">
+          <h2>CONTATE-NOS</h2>
+        </div>
+
+        <div class="row">
+
+          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="100">
+            <div class="contact-about">
+              <h3>Enterprisma Tecnologia</h3>
+              <p>Desde o desenvolvimento de aplicativos móveis intuitivos até a implementação de sistemas de última geração, estamos comprometidos em oferecer soluções de software de alta qualidade que impulsionam o crescimento e o sucesso dos nossos clientes.!</p>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-6 mt-4 mt-md-0" data-aos="fade-up" data-aos-delay="200">
+            <div class="info">
+              
+
+            </div>
+          </div>
+
+          <div class="col-lg-5 col-md-12" data-aos="fade-up" data-aos-delay="300">
+            <form action="../controllers/ContateUsController.php" method="post" class="php-email-form">
+              <div class="form-group">
+                <input type="text" name="name" class="form-control" id="name" placeholder="Nome" required>
+              </div>
+              <div class="form-group">
+                <input type="email" class="form-control" name="email" id="email" placeholder="Email" required>
+              </div>
+              <div class="form-group">
+                <input type="text" class="form-control" name="subject" id="subject" placeholder="Assunto" required>
+              </div>
+              <div class="form-group">
+                <textarea class="form-control" name="message" rows="5" placeholder="Mensagem" required></textarea>
+              </div>
+              <div class="my-3">
+                <div class="loading">Loading</div>
+                <div class="error-message"></div>
+                <div class="sent-message">Your message has been sent. Thank you!</div>
+              </div>
+              <div class="text-center"><button type="submit">Enviar Mensagem</button></div>
+            </form>
+          </div>
+
+        </div>
+
+      </div>
+    </section><!-- End Contact Section -->
+
+  </main><!-- End #main -->
+
+ 
+
+  <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+
+  <!-- Vendor JS Files -->
+  <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
+  <script src="assets/vendor/aos/aos.js"></script>
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+  
+
+  <!-- Template Main JS File -->
+  <script src="assets/js/main.js"></script>
+
+</body>
+
+</html>
